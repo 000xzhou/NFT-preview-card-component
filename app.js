@@ -200,7 +200,7 @@ function abilitiesOne(ability) {
         .then(res => res.json())
         .then(data => {
             const str = data.flavor_text_entries[0].flavor_text
-            moveDetailsOne.textContent = str
+            moveDetailsOne.textContent = capitalizeFirstLetter(str.toLowerCase())
         })
         .catch(err => {
             console.log(`error: ${err}`)
@@ -212,7 +212,7 @@ function abilitiesTwo(ability) {
         .then(res => res.json())
         .then(data => {
             const str = data.flavor_text_entries[0].flavor_text
-            moveDetailsTwo.textContent = str
+            moveDetailsTwo.textContent = capitalizeFirstLetter(str.toLowerCase())
         })
         .catch(err => {
             console.log(`error: ${err}`)
