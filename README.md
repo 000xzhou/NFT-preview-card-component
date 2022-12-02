@@ -1,0 +1,3 @@
+- images from http://thingonitsown.blogspot.com/2019/01/18-elemental-textures.html
+- images from https://pokemongo.fandom.com/wiki/Pok%C3%A9mon
+- api from https://pokeapi.co/

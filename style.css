@@ -1,0 +1,88 @@
+html,
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Puritan', sans-serif;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn {
+
+    border-radius: 999em;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 18px;
+    position: relative;
+    border: 2px solid #FCCE19;
+    color: #FCCE19;
+}
+
+.text {
+    padding: 1rem 3rem;
+}
+
+.text:hover {
+    transition: all .2s ease-in-out;
+    transform: scale(1.5);
+}
+
+.card {
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1.875rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    border: 2rem solid #FCCE19;
+
+}
+
+.photo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+img {
+    height: 20rem;
+    width: 20rem;
+    border: 3px solid #000;
+    padding: 2rem;
+}
+
+.ability {
+    color: black;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+p {
+    inline-size: 380px;
+    overflow-wrap: break-word;
+}
+
+.test {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/13471/sparkles.gif");
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 180%;
+    mix-blend-mode: color-dodge;
+    opacity: 1;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
